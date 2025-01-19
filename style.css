@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: BuenosAires;
+    src: url('./fonts/BuenosAires-Bold.ttf');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: BuenosAires;
+    src: url('./fonts/BuenosAires-SemiBold.ttf');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: BuenosAires;
+    src: url('./fonts/BuenosAires-Thin.ttf');
+    font-weight: 100;
+}
+
+.hero {
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(to bottom ,  #FFF0F4, #FFF3F6 );
+    text-align: center;
+    padding-top: 100px;
+}
+
+.hero_avatar {
+    width: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border-color: white;
+    border-width: 5px;
+    border-style:solid;
+    margin-bottom: 20px;
+}
+
+.hero_heading {
+    font-size: 96px;
+    color: #0A0614;
+    font-family: BuenosAires;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 30px;
+    font-family: BuenosAires;
+    font-weight: 100;
+
+}
+
+.hero p span {
+    background-color: #4cc9fa;
+    padding: 0px 10px;
+}
+
+.social-items {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.social-item {
+    height: 60px;
+    width: 60px;
+    background-color: white;
+    border-radius: 50%;
+    border-color: #EAEAEA;
+    border-style: solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-item > img {
+    height: 30px;
+    width: 30px;
+}
+
+.navbar {
+
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+    
+}
+
+.nav-items {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-item {
+    font-family: BuenosAires;
+    font-weight: thin;
+    font-size: 20px;
+    color: #0A0614;
+    text-decoration: none;
+}
+
+.nav-item li {
+  list-style-type: none;
+}
+
+.nav-item:hover {
+    color: #4cc9fa;
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    
+}
+
+.thank-you {
+    background-color: white;
+    padding: 100px 0;
+}
+
+.thank-you-container {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.thank-you-left {
+    width: 60%;
+    
+}
+
+.thank-you-title {
+    font-family: BuenosAires;
+    font-weight: bold;
+    font-size: 70px;
+    color: #0A0614;
+}
+
+.thank-you-subtitle {
+    font-family: BuenosAires;
+    font-weight: 100;
+    font-size: 16px;
+    color: #0A0614;
+}
+
+.thank-you-description {
+    font-family: BuenosAires;
+    font-weight: 100;
+    font-size: 30px;
+    color: #0A0614;
+    margin-top: 50px;
+}
+
+.thank-you-btn {
+    display: inline-block;
+    margin-top: 20px;
+    background-color: blue;
+    color: white;
+    font-family: BuenosAires;
+    font-weight: 100;
+    font-size: 20px;
+    padding: 20px 30px;
+    border-radius: 100px;
+    text-decoration: none;
+}
+
+.thank-you-btn:hover {
+    background-color: #4cc9fa;
+    color: black;
+    text-decoration: none;
+}
+
+
+.thank-you-image {
+    width: 100%;
+    
+}
