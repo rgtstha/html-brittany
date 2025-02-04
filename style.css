@@ -25,7 +25,7 @@
 .hero {
     height: 100vh;
     width: 100%;
-    background-image: linear-gradient(to bottom ,  #FFF0F4, #FFF3F6 );
+    background-image: linear-gradient(to bottom, #FFF0F4, #FFF3F6);
     text-align: center;
     padding-top: 100px;
 }
@@ -36,7 +36,7 @@
     border-radius: 50%;
     border-color: white;
     border-width: 5px;
-    border-style:solid;
+    border-style: solid;
     margin-bottom: 20px;
 }
 
@@ -77,7 +77,7 @@
     align-items: center;
 }
 
-.social-item > img {
+.social-item>img {
     height: 30px;
     width: 30px;
 }
@@ -90,7 +90,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 40px 0;
-    
+
 }
 
 .nav-items {
@@ -107,7 +107,7 @@
 }
 
 .nav-item li {
-  list-style-type: none;
+    list-style-type: none;
 }
 
 .nav-item:hover {
@@ -118,7 +118,7 @@
 .container {
     max-width: 1200px;
     margin: auto;
-    
+
 }
 
 .thank-you {
@@ -134,7 +134,7 @@
 
 .thank-you-left {
     width: 60%;
-    
+
 }
 
 .thank-you-title {
@@ -181,5 +181,77 @@
 
 .thank-you-image {
     width: 100%;
-    
+
+}
+
+
+
+
+
+
+.grid-item {
+    aspect-ratio: 16/9;
+
+}
+
+
+.grid-item>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
+
+
+
+
+
+
+
+
+
+.blog-posts {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    column-gap: 30px;
+    margin-top: 30px;
+}
+
+.blog-item {
+    width: 100%;
+    background-color: rgb(236, 236, 236);
+
+}
+
+.blog-item>img {
+    width: 100%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    object-position: center;
+}
+
+.blog-item-content {
+    padding: 20px;
+}
+
+.blog-item h2 {
+    font-family: BuenosAires;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.blog-item p {
+    font-family: BuenosAires;
+    font-weight: 100;
+    font-size: 16px;
+    margin-top: 10px;
 }
